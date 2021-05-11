@@ -39,6 +39,8 @@ query = \
      '-d',
      '--cap-add',
      'NET_ADMIN',
+     '-e',
+     'SPW=password',
      '-p',
      '500:500/udp',
      '-p',
