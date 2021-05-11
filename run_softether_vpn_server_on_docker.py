@@ -48,6 +48,8 @@ query = \
      '-p',
      '1194:1194/udp',
      '-p',
+     '443:443/tcp',
+     '-p',
      '5555:5555/tcp',
      '-e',
      f'USERNAME={USERNAME}',
