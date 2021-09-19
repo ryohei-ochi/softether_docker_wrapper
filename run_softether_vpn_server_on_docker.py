@@ -37,6 +37,7 @@ query = \
     ['docker',
      'run',
      '-d',
+     '--restart=always',
      '--cap-add',
      'NET_ADMIN',
      '-e',
